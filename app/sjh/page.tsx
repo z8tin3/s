@@ -353,7 +353,7 @@ export default function PhoneGeneratorPage() {
   const totalPages = Math.ceil(generatedNumbers.length / ITEMS_PER_PAGE);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative z-10">
       <header className="sticky top-0 z-40 bg-background border-b border-border">
         <div className="flex items-center justify-between px-4 py-3">
           <h1 className="text-lg font-semibold text-foreground">
